@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <TextView
+        style="@style/TextAppearance.Compat.Notification.Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primary"
+        android:gravity="center"
+        android:padding="14dp"
+        android:text="Update Order Details"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/orproductname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="Product Name : " />
+
+    <EditText
+        android:id="@+id/orproductid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="Product ID : " />
+
+    <EditText
+        android:id="@+id/orproductflavour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="Product Flavour : " />
+    <EditText
+        android:layout_margin="5dp"
+        android:id="@+id/orproductqty"
+        android:hint="Product Qty : "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/orcusname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="Customer Name : " />
+
+    <EditText
+        android:layout_margin="5dp"
+        android:id="@+id/orcuscontact"
+        android:hint="Customer Contact No : "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_margin="5dp"
+        android:id="@+id/orstatus"
+        android:hint="Order Status : (Don't fill this. Use for admin)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#25D806"/>
+
+    <Button
+        android:id="@+id/orupdate_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/orange"
+        android:text="UPDATE"
+        android:textColor="#fff"
+        android:textSize="16sp" />
+
+</LinearLayout>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="BetterButter"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SweetCake"
+        tools:targetApi="31">
+        <activity
+            android:name=".Order_cakes"
+            android:exported="false" />
+        <activity
+            android:name=".Othercus"
+            android:exported="false" />
+        <activity
+            android:name=".Newbaby_cupcakescus"
+            android:exported="false" />
+        <activity
+            android:name=".Anniversary_cupcakescus"
+            android:exported="false" />
+        <activity
+            android:name=".Wedding_cupcakescus"
+            android:exported="false" />
+        <activity
+            android:name=".Birthday_cupcakescus"
+            android:exported="false" />
+        <activity
+            android:name=".Classic_cupcakescus"
+            android:exported="false" />
+        <activity
+            android:name=".Add_feedback"
+            android:exported="false" />
+        <activity
+            android:name=".View_order_cus"
+            android:exported="false" />
+        <activity
+            android:name=".Find_cakes"
+            android:exported="false" />
+        <activity
+            android:name=".View_gallery"
+            android:exported="false" />
+        <activity
+            android:name=".Other"
+            android:exported="false" />
+        <activity
+            android:name=".Wedding_cupcakes"
+            android:exported="false" />
+        <activity
+            android:name=".Newbaby_cupcakes"
+            android:exported="false" />
+        <activity
+            android:name=".Anniversary_cupcakes"
+            android:exported="false" />
+        <activity
+            android:name=".Birthday_cupcakes"
+            android:exported="false" />
+        <activity
+            android:name=".Classic_cupcakes"
+            android:exported="false" />
+        <activity
+            android:name=".About"
+            android:exported="false" />
+        <activity
+            android:name=".View_feedback"
+            android:exported="false" />
+        <activity
+            android:name=".View_order"
+            android:exported="false" />
+        <activity
+            android:name=".Manage_cakes"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_signup"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_home"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_signin"
+            android:exported="false" />
+        <activity
+            android:name=".Customer_home"
+            android:exported="false" />
+        <activity
+            android:name=".Customer_signup"
+            android:exported="false" />
+        <activity
+            android:name=".Customer_signin"
+            android:exported="false" />
+        <activity
+            android:name=".Select_Account"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
