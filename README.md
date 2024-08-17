@@ -24,7 +24,7 @@ Better Butter is a mobile application designed to provide a seamless cupcake sho
 ## 🛠️ Technologies Used ##
 - Java/Kotlin: The programming languages used to develop the mobile application.
 - Android Studio: The integrated development environment (IDE) used for building and testing the app.
-  
 
+![bbsignin](https://github.com/user-attachments/assets/2c29df8c-1d2b-4ca5-b9a9-c6f63b9edd90)![bbsignup](https://github.com/user-attachments/assets/e6aa4d32-4579-4d27-b0f4-10b8ffa7e92a)
 ![bbselectacc](https://github.com/user-attachments/assets/f97fe339-ffd9-49a2-8e8e-41d4329a6d7f)![bbcustomerhome](https://github.com/user-attachments/assets/da707709-66c4-4405-84ea-850dceae1a88)![ddadminhome](https://github.com/user-attachments/assets/f9327235-a1cf-43ef-83e6-9a970e4ff7bf)
 
